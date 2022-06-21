@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "520887749554",
+    "project_id": "ifit-e25a9",
+    "storage_bucket": "ifit-e25a9.appspot.com",
+    "firebase_url": "https://ifit-e25a9-default-rtdb.asia-southeast1.firebasedatabase.app/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520887749554:android:89026f08d73d8e79e072ab",
+        "android_client_info": {
+          "package_name": "com.example.ifitcoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520887749554-jgdmb2aukokmq71tm3i5ovmebdcelikb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLL5BCrXMXDbSXTw4_3jhCFJYzpzQl2TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520887749554-jgdmb2aukokmq71tm3i5ovmebdcelikb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
