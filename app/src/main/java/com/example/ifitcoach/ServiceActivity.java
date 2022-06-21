@@ -6,6 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -47,6 +48,7 @@ public class ServiceActivity extends AppCompatActivity
 
     private RecyclerView serviceList;
 
+    @SuppressLint("RestrictedApi")
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -180,7 +182,7 @@ public class ServiceActivity extends AppCompatActivity
                     serviceViewHolder.serviceOwnerUsername.setText(username);
                 }
 
-                if(!userImage.isEmpty())
+                if(userImage != null && !userImage.isEmpty())
                 {
                     Picasso.with(getApplication()).load(userImage).placeholder(R.drawable.profile_image_placeholder).into(serviceViewHolder.serviceOwnerImage);
                 }
